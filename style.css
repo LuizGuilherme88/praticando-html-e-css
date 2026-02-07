@@ -1,0 +1,29 @@
+@charset "UTF-8";
+main{
+    
+    background-color: rgba(48, 33, 33, 0.89); /* define a cor de fundo do <main> com transparência */
+    border-radius: 20px; /* arredonda os cantos do bloco */
+    box-shadow: 5px 5px 15px rgba(25, 33, 28, 0.361); /* adiciona sombra para dar profundidade */
+    width: 700px; /* largura fixa de 900px */
+    padding: 10px; /* espaço interno entre o conteúdo e a borda */
+    margin: auto; /* centraliza horizontalmente o <main> na tela */
+    color:white /* define a cor do texto como branco */
+}
+
+
+body{
+    background-image: linear-gradient(to left,#A13F2F,#010509); /* define um gradiente de fundo para o corpo da página */
+}
+
+img{
+    border-radius: 20px; 
+    width: 70%; /* define a largura da imagem como 70% do elemento pai */
+    height:auto; /* mantém a proporção da imagem ao ajustar a largura */
+}
+
+video{
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(25, 33, 28, 0.361);
+    width:80%;
+    height: auto;
+}
